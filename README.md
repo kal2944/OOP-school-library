@@ -95,13 +95,6 @@ $ bundle install (install dependencies)
 
 $ ruby main.rb (run the app locally)
 ```
-### Usage
-
-This website is applicable for both mobile and desktop version.
-
-### Deployment
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -120,9 +113,13 @@ This website is applicable for both mobile and desktop version.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+
+- **Use the "Decorator" design pattern.**
+- **Set up associations.**
+- **Add basic UI.**
+- **Refactor code.**
+- **Preserve data.**
+- **Add unit tests.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
