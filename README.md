@@ -132,7 +132,7 @@ This website is applicable for both mobile and desktop version.
 
 Contributions, issues, and feature requests are welcome! Add suggestions by opening new issues.
 
-Feel free to check the [issues page](https://github.com/AlejandraKeber/School-library/issues).
+Feel free to check the [issues page](https://github.com/kal2944/OOP-school-library.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
