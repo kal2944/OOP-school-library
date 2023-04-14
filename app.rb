@@ -17,7 +17,7 @@ class App
     person_type = gets.chomp
 
     case person_type
-    when '1'
+    when ''
       new_student
     when '2'
       new_teacher
@@ -124,3 +124,5 @@ class App
     end
   end
 end
+
+
