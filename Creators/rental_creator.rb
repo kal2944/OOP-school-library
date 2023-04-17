@@ -1,11 +1,14 @@
 class RentalCreator
   def self.create(app)
-    print 'Enter person id: '
-    person_id = gets.chomp.to_i
+    if @rentals.empty?
+      puts 'Rental is empty'
+    else
+      print 'Enter person id: '
+      person_id = gets.chomp.to_i
 
-    person = app.find_person(person_id)
-
-    if person.nil?
+      person = app.find_person(person_id)
+      return
+      person.nil?
       puts "Person with id #{person_id} not found"
       return
     end
