@@ -35,7 +35,7 @@ class Main
     when 6
       @app.list_rentals
     else
-      puts 'Ivalid option, please try again'
+      puts 'Invalid option, please try again'
     end
   end
 
