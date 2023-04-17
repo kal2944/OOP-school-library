@@ -95,10 +95,31 @@ class App
   end
 
   def new_rental
-    puts 'Select a book from the following list by number'
-    list_books
-    book_index = gets.chomp.to_i - 1
+    if @books.empty?
+      puts 'Book array is empty'
+    elsif @people.empty?
+      puts 'Person array is empty'
+    else
+      rental_book = select_book
+      rental_person = select_person
+      date = the_rental_date
 
+      rental = Rental.new(date, @books[rental_book], @people[rental_person])
+
+      @rentals << rental
+      puts 'Rental created successfully'
+    end
+  end
+
+  def select_book
+    puts 'Select a book from the following list by number:'
+    @books.each_with_index do |book, index|
+      puts "#{index} Title: \"#{book.title}\", Author: #{book.author}"
+    end
+    gets.chomp.to_i
+  end
+
+  def select_person
     puts 'Select a person from the following list by number (not id):'
     @people.each_with_index do |person, index|
       puts "#{index} Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
