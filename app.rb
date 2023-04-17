@@ -17,7 +17,7 @@ class App
     person_type = gets.chomp
 
     case person_type
-    when ''
+    when '1'
       new_student
     when '2'
       new_teacher
@@ -99,15 +99,16 @@ class App
     list_books
     book_index = gets.chomp.to_i - 1
 
-    puts 'Select a person from the following list by number (not id)'
-    list_people
-    person_index = gets.chomp.to_i - 1
+    puts 'Select a person from the following list by number (not id):'
+    @people.each_with_index do |person, index|
+      puts "#{index} Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
+    end
+    gets.chomp.to_i
+  end
 
-    puts 'Date: '
-    date = gets.chomp
-
-    @rentals << Rental.new(date, @books[book_index], @people[person_index])
-    puts 'Rental created successfully'
+  def the_rental_date
+    print 'Enter rental date: '
+    gets.chomp
   end
 
   def list_rentals
