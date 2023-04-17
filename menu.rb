@@ -1,5 +1,5 @@
-class Menu
-  def self.display
+module Menu
+  def display_menu
     puts ''
     puts 'Please choose an option by entering a number:'
     puts '1 - List all books'
