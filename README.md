@@ -46,11 +46,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-Live demo is currently unavailable.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,6 +100,12 @@ $ ruby main.rb (run the app locally)
 - GitHub: [@kal2944](https://github.com/kal2944)
 - Twitter: [@Kalkida01088197](https://twitter.com/Kalkida01088197)
 - LinkedIn: [Kalkidan Daniel](https://www.linkedin.com/in/kalkidan-daniel-b2a204238/)
+
+👤 **Abdimulhin Adan**
+
+- GitHub: [@AbdimulhinYussuf3675](https://github.com/AbdimulhinYussuf3675)
+- Twitter: [@abdimulhin](https://twitter.com/abdimulhin)
+- LinkedIn: [Abdimulhin Adan](https://github.com/AbdimulhinYussuf3675)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
