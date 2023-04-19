@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "John Smith",
+      "age": 25,
+      "type": "student",
+      "parent_permission": true
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "age": 35,
+      "type": "teacher",
+      "specialization": "Mathematics"
+    }
+  ]
+  
