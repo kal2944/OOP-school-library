@@ -1,6 +1,6 @@
-require_relative './nameable'
-require_relative './rental'
-require_relative './book'
+require_relative 'nameable'
+require_relative 'rental'
+require_relative 'book'
 class Person < Nameable
   def initialize(id, age, name = 'Unknown', parent_permission: true)
     super()
@@ -27,7 +27,10 @@ class Person < Nameable
   end
 
   def add_rental(book, date)
-    Rental.new(date, self, book)
+    rental = Rental.new(date, book, self)
+    @rentals << rental
+    rental
   end
-  private :of_age?
+
+  public :of_age?
 end

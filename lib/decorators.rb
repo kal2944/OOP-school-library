@@ -1,4 +1,4 @@
-require_relative './nameable'
+require_relative 'nameable'
 
 class Decorator < Nameable
   def initialize(nameable)
@@ -21,6 +21,6 @@ end
 
 class TrimmerDecorator < Decorator
   def correct_name
-    @nameable.correct_name.length > 10 ? "#{@nameable.correct_name[0..10]}..." : @nameable.correct_name
+    nameable.name.length > 10 ? "#{nameable.name[0..9]}..." : nameable.name
   end
 end
