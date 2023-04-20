@@ -1,0 +1,8 @@
+require './lib/book'
+require './lib/classroom'
+require './lib/decorators'
+require './lib/nameable'
+require './lib/person'
+require './lib/rental'
+require './lib/student'
+require './lib/teacher'
