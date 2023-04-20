@@ -15,7 +15,7 @@ module RentalsPreserve
   def fetch_rentals
     data = []
     file = './data/rentals.json'
-    return [] unless File.exist?(file) && File.read(file) != ''
+    return [] unless File.exist?(file) && !File.empty?(file)
 
     JSON.parse(File.read(file)).each do |rental|
       data << Rental.new(rental['date'], rental['book'], rental['person'])
