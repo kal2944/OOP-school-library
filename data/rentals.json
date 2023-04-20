@@ -1,17 +1,1 @@
-[
-    {
-      "date": "2023-04-19",
-      "book": {
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald"
-      },
-      "person": {
-        "id": 1,
-        "name": "John Smith",
-        "age": 25,
-        "type": "student",
-        "parent_permission": true
-      }
-    }
-  ]
-  
+[{"date":"2022/04/06","book":"Tester By Mr test","person":283}]
