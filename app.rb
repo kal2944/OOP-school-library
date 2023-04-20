@@ -1,11 +1,11 @@
-require_relative './student'
-require_relative './teacher'
-require_relative './book'
-require_relative './rental'
-require_relative './classroom'
-require_relative './IOstore/preserve_books'
-require_relative './IOstore/preserve_people'
-require_relative './IOstore/preserve_rentals'
+require_relative './lib/student'
+require_relative './lib/teacher'
+require_relative './lib/book'
+require_relative './lib/rental'
+require_relative './lib/classroom'
+require_relative './input_store/preserve_books'
+require_relative './input_store/preserve_people'
+require_relative './input_store/preserve_rentals'
 class App
   attr_accessor :books, :people, :rentals, :classroom
 
