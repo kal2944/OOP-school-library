@@ -1,5 +1,5 @@
-teacher_spec.rb
 require_relative 'imports'
+
 RSpec.describe Teacher do
   let(:teacher) { Teacher.new(1, 35, 'Math') }
   describe '#initialize' do
