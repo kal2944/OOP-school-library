@@ -1,6 +1,5 @@
-rentals_spec.rb
-
 require_relative 'imports'
+
 RSpec.describe Classroom do
   let(:classroom) { Classroom.new('Math 101') }
   let(:student1) { Student.new(1, 16, classroom.label) }
