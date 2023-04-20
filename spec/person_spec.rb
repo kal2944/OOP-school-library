@@ -58,7 +58,6 @@ RSpec.describe Person do
       expect(person.rentals[0].person).to eq(person)
     end
 
-
     it 'adds the rental to the person' do
       expect do
         person.add_rental(book, date)
